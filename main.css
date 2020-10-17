@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #CC5500;
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: black;
+  padding-bottom: 15vh;
+  font-size: 2rem;
+}
+
+h2 span {
+  color: black;
+  font-size: 3rem;
+}
